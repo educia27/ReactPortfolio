@@ -25,7 +25,7 @@
                font-size: 40px;
                font-weight: 700;
                text-decoration: none;
-               color: inherit;
+               color: inherit;  // this is initially set to inherit
                margin-right:40px;
             }
 
@@ -73,7 +73,7 @@
       color: white;
 
       .hamburger{
-         span{
+         span {
             &:first-child{
                background-color: white;
                transform: rotate(45deg);
