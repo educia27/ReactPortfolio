@@ -1,4 +1,4 @@
-import "./intro.scss"
+import "./intro.scss";
 
 import { init } from 'ityped'
 import { useEffect, useRef } from "react"
@@ -13,7 +13,7 @@ export default function Intro() {
       showCursor: true,
       backDelay:  1500,
       backSpeed: 60,
-      strings: ['Passion for developing new skill sets.', 'Designer.' ],
+      strings: ['Skilled in JS, Java, HTML, CSS, Python, SQL.', 'Always Learning.' ],
     });
   },[])
   return (
@@ -27,7 +27,7 @@ export default function Intro() {
           <div className="wrapper">
             <h2> Hello, my name is</h2>
             <h1>Eddy Tamayo Garcia</h1>
-            <h3>Geospatial Analyst looking for Development roles. <span ref={textRef}></span> </h3>
+            <h3>Seeking development roles. <span ref={textRef}></span> </h3>
           </div>
           <a href="#portfolio">
             <img src="assets/down.png" alt=""></img>
