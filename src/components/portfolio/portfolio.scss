@@ -8,6 +8,10 @@
 
     h1{
         font-size: 50px;
+
+        @include mobile{
+            width: 100%;
+        }
     }
 
     ul{
@@ -15,6 +19,12 @@
         padding: 0;
         list-style: none;
         display: flex;
+
+        @include mobile{
+            margin: 10px 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
 
         li{
            font-size: 14px;
@@ -52,10 +62,10 @@
            transition: all .5s ease; 
            cursor: pointer;
 
-        //    h3{
-        //        position: absolute;
-        //        font-size: 20px;
-        //    }
+           @include mobile{
+               width: 130px;
+               height: 100px;
+           }
 
            img{
                width: 100%;
